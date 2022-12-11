@@ -1,0 +1,57 @@
+body {
+  background-image: url(background5.png);
+  background-size: cover; 
+  text-align: center;
+  padding-top: 60px; 
+  font-family: "Lato", "Roboto", sans-serif;
+}
+
+h1 {
+  color: goldenrod; 
+  font-size: 50px;
+}
+
+p{
+  color: white; 
+  font-weight: bold; 
+  font-size: 25px; 
+}
+
+#message-el {  
+  font-style: italic; 
+}
+
+button {
+  background-color: goldenrod; 
+  border: none; 
+  color: darkgreen; 
+  font-size: 25px; 
+  font-weight: bold; 
+  width: 225px; 
+  height: 40px; 
+  margin-top: 10px; 
+  border-radius: 8px;
+}
+
+button:hover {
+  cursor: pointer; 
+}
+
+#instruction-el {
+  font-size: 13px; 
+  font-weight: 300; 
+  
+}
+
+#instruction-div {
+  display: flex; 
+  justify-content: center; 
+  text-align: left;
+
+  margin-top: 20px; ;
+}
+
+span {
+  font-weight: bold; 
+  text-decoration: underline;
+}
